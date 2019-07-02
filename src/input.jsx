@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = React.forwardRe(({ name, ...props }, ref) => {
+const Input = React.forwardRef(({ name, ...props }, ref) => {
   return (
     <div>
       <label htmlFor={name}>{name}</label>
